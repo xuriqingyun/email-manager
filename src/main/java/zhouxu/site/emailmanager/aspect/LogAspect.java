@@ -28,7 +28,7 @@ public class LogAspect {
     //时间格式
     private final String DATA_FORMAT="yyyy-MM-dd hh:mm:ss";
 
-    @Pointcut("execution(public * zhouxu.org.emailmanager.api.*.*(..))")
+    @Pointcut("execution(public * zhouxu.site.emailmanager.api.*.*(..))")
     public void logPoint(){
     }
 

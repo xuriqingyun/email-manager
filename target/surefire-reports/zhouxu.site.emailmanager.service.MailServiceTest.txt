@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: zhouxu.site.emailmanager.service.MailServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.262 s <<< FAILURE! - in zhouxu.site.emailmanager.service.MailServiceTest
+sendSimpleTextMailTest(zhouxu.site.emailmanager.service.MailServiceTest)  Time elapsed: 18.26 s  <<< ERROR!
+org.springframework.mail.MailSendException: 
+Failed messages: com.sun.mail.smtp.SMTPSendFailedException: 553 authentication is required,163 smtp13,EcCowAA3kGMgafJbkwSlAg--.22936S2 1542613299
+;
+  nested exception is:
+	com.sun.mail.smtp.SMTPSenderFailedException: 553 authentication is required,163 smtp13,EcCowAA3kGMgafJbkwSlAg--.22936S2 1542613299
+
+	at zhouxu.site.emailmanager.service.MailServiceTest.sendSimpleTextMailTest(MailServiceTest.java:26)
+

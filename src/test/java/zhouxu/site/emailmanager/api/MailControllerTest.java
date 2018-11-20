@@ -25,7 +25,7 @@ public class MailControllerTest {
 
     @Test
     public void sendMailTest(){
-        Mail mail = new Mail("xuriqingyun@163.com","1136112121@qq.com","测试文本邮件发送",
+        Mail mail = new Mail("devoperation@163.com","1136112121@qq.com","测试文本邮件发送",
                 "<html><head></head><body><h1>hello!</h1>"+ "<img src=\"cid:everynote\"/>\"<img src=\"cid:everynote1\"/></body></html>",
                 Arrays.asList(new String[]{"test.txt"}),
                 Arrays.asList(new String[]{"everynote","everynote1"}),
